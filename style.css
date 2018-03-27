@@ -43,8 +43,9 @@ body {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 951px;
+	height: 100vh;
 	position: relative;
+	/*border: 2px solid orange;*/
 }
 .jumbo > p {
 	position: absolute;
@@ -54,7 +55,7 @@ body {
 	text-align: left;
 	transform: rotate(-90deg);
 	text-transform: uppercase;
-	left: -7vh;
+	left: -2vh;
 	top: 50vh;
 }
 
@@ -74,7 +75,7 @@ body {
 	position: relative;
 	box-sizing: border-box;
 	border: 3px solid #FFF;
-	margin-left: 10vw;
+	margin-left: 20vw;
 	margin-top: 2%;
 }
 .circle:before {
@@ -101,15 +102,12 @@ body {
 	top: 10%;
 	left: 125%;
 }
-.jumbo_ {
-	min-height: 951px;
-}
 .jumbo_ h1 {
 	color: #FFF;
 	font-size: 60px;
 	font-weight: 300;
 	text-align: left;
-	padding-left: 10vw;
+	padding-left: 20vw;
 	margin-top: 30vh;
 	margin-bottom: 0;
 }
@@ -119,7 +117,7 @@ body {
 	font-weight: 400;
 	line-height: 24px;
 	text-align: left;
-	padding-left: 10vw;
+	padding-left: 20vw;
 }
 
 /*start something new*/
@@ -132,7 +130,7 @@ body {
 	font-weight: 300;
 	line-height: 24px;
 	text-align: left;
-	padding-left: 10vw;
+	padding-left: 20vw;
 } 
 .new_1 p {
 	color:  #959595;
@@ -140,7 +138,7 @@ body {
 	font-weight: 400;
 	line-height: 24px;
 	text-align: left;
-	padding-left: 10vw;
+	padding-left: 20vw;
 	padding-right: 2vw;
 }
 .new_2 {
@@ -161,7 +159,7 @@ body {
 	font-weight: 400;
 	line-height: 24px;
 	text-align: left;
-	padding-right: 8vw;	
+	padding-right: 18vw;	
 }
 .new_2 > p {
 	padding-top: 12vh;	
@@ -177,7 +175,7 @@ body {
 	margin: 3% auto;
 }
 .gallery_ {
-	padding-left: 10vw;	
+	padding-left: 20vw;	
 }
 .gallery_ [class*="col-"] {
 	height: 25vh;
@@ -240,8 +238,8 @@ body {
 	line-height: 24px;
 	text-decoration: none;
 	position: absolute;
-	bottom: 4vh;
-	left: 28px;
+	top: 20vh;
+	left: 1.6vw;
 }
 .gallery_ a:after {
 	content: "\f178";	
@@ -257,7 +255,7 @@ body {
 }
 i.fa-heart-o {
 	position: absolute;
-	bottom: 4vh;
+	top: 20.5vh;
 	right: 20px;
 	color: #FFF;
 }
@@ -281,8 +279,8 @@ i.fa-heart-o {
 	
 }
 ._details {
-	padding-left: 10vw;
-	padding-right: 8vw;
+	padding-left: 20vw;
+	padding-right: 18vw;
 }
 ._details h1 {
 	color:  #222626;
@@ -321,7 +319,7 @@ i.fa-heart-o {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 875px;	
+	min-height: 100vh;	
 	position: relative;
 }
 .mP h1 {
@@ -330,8 +328,8 @@ i.fa-heart-o {
 	font-weight: 300;
 	text-align: left;
 	position: absolute;
-	padding-left: 10vw;
-	top: 25vh;
+	padding-left: 20vw;
+	top: 35vh;
 }
 .mP p {
 	color: #FFF;
@@ -340,8 +338,8 @@ i.fa-heart-o {
 	line-height: 24px;
 	text-align: left;	
 	position: absolute;
-	padding-left: 10vw;
-	top: 45vh;
+	padding-left: 20vw;
+	top: 55vh;
 }
 .mP a {
 	color: #FFF;
@@ -350,8 +348,8 @@ i.fa-heart-o {
 	line-height: 24px;
 	text-decoration: none;
 	position: absolute;
-	bottom: 10vh;
-	left: 10vw;	
+	top: 70vh;
+	left: 20vw;	
 	position: absolute;
 }
 .mP a:after {
@@ -386,8 +384,8 @@ i.fa-heart-o {
 	margin-top: 10vh;
 }
 ._reasons {
-	padding-left: 10vw;
-	padding-right: 8vw;
+	padding-left: 20vw;
+	padding-right: 18vw;
 }
 .reasons h2 {
 	color: #FFF;
@@ -429,8 +427,7 @@ i.fa-heart-o {
 	margin-top: 10vh;	
 }
 ._buy {
-	padding: 10vh 15vw;
-	
+	padding: 5vh 20vw;
 }
 .btn-small {
 	color: #FFF;
@@ -456,7 +453,7 @@ i.fa-heart-o {
 	height: 47px;
 	float: left;
 	margin-left: 5%;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	cursor: pointer;
 }
 ._buy h2 {
@@ -464,7 +461,7 @@ i.fa-heart-o {
 	font-size: 30px;
 	font-weight: 300;
 	line-height: 40px;
-	padding-top: 5%;
+	padding-top: 10%;
 	text-align: left;
 	margin-left: 5%;
 	margin-top: 1vh;
@@ -476,14 +473,15 @@ i.fa-heart-o {
 	line-height: 25px;
 	text-align: left;
 	margin-left: 5%;
+	padding-right: 10%;
 }
 .solo, .team {
 	position: relative;	
-	height: 30vh;
+	height: 40vh;
 }
 .solo i, .team i {
 	position: absolute;
-	bottom: 8%;
+	bottom: 6vh;
 	left: 5%;
 	color: #c5c5c5;
 	cursor: pointer;
@@ -509,7 +507,7 @@ i.fa-windows {
 	height: auto;	
 }
 ._footer {
-	padding-left: 10vw;
+	padding-left: 20vw;
 	padding-right: 8vw;
 	padding-top: 10vh;
 	padding-bottom: 10vh;
@@ -550,6 +548,7 @@ input[type="email"] {
 	margin-right: 0;
 	margin-left: 8%;
 	border: none;
+	padding: 5px;
 }
 input[type="submit"] {
 	border: none;
@@ -557,7 +556,7 @@ input[type="submit"] {
 	margin: 0;
 	color: white;
 	font-weight: bold;
-	width: 70px;
+	width: 60px;
 	cursor: pointer;
 }
 .stay  p:last-child {
@@ -568,7 +567,198 @@ input[type="submit"] {
 	text-align: left;	
 }
 
-@media (max-width: 767px){
+@media (min-width: 1441px) and (max-width: 1650px) {
+    /* For tablets, laptop: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+    /*gallery*/
+	.gallery_ [class*="col-"] {
+		height: 35vh;
+	}
+	.gallery_ a {
+		top: 28vh;
+	}
+	i.fa-heart-o {
+		top: 28.5vh;
+	}
+
+	/*mP*/
+	.mP h1 {
+		top: 15vh;
+	}
+	.mP p {
+		top: 40vh;
+	}
+	.mP a {
+		top: 60vh;
+	}
+
+	/*buy*/
+	.solo, .team {
+		height: 50vh;
+	}
+	.solo i, .team i {
+		top: 45vh;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1440px) {
+    /* For tablets, laptop: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+    /*jumbo*/
+	.jumbo > p {
+		left: -4vh;
+		top: 70vh;
+	}
+	.jumbo_ h1 {
+		margin-top: 30vh;
+	}
+
+	/*start something new*/
+	.new_2 img {
+		left: 5px;
+    }
+
+	/*gallery*/
+	.gallery_ [class*="col-"] {
+		height: 45vh;
+	}
+	.gallery_ a {
+		top: 38vh;
+	}
+	i.fa-heart-o {
+		top: 38.5vh;
+	}
+	
+	/*mP*/
+	.mP h1 {
+		top: 20vh;
+	}
+	.mP p {
+		top: 55vh;
+	}
+	.mP a {
+		top: 75vh;
+		left: 20vw;	
+	}
+
+	/*buy*/
+	.solo, .team {
+		height: 60vh;
+	}
+	.solo i, .team i {
+		top: 50vh;
+	}
+
+	/*footer*/
+	input[type="email"] {
+		width: 220px;	
+	}
+	input[type="submit"] {
+		width: 40px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+   
+   [class*="col-"] {
+		float: none;
+	}
+	
+	/*jumbo*/
+	.jumbo {
+		border-top: 1px solid #FFF;
+	}
+
+	/*start something new*/
+	.new_2 img {
+		display: none;
+	}
+	.new_1, .new_2 {
+		padding-right: 2vw;
+	}
+	.new_2_text {
+		margin-top: 2vh;
+	}
+	.new_2 {
+		padding-left: 20vw;	
+	}
+	
+	/*gallery*/
+	.gallery_ h2 {
+		padding-top: 25px;
+	}
+
+	.gallery_ [class*="col-"] {
+		height: 25vh;
+		width: 80%;
+	}
+	.gallery_ a {
+		top: 18vh;
+	}
+	i.fa-heart-o {
+		top: 18.5vh;
+	}
+	
+	/*buy*/
+	.solo, .team {
+		height: 40vh;
+	}
+	.solo i, .team i {
+		top: 35vh;
+	}
+
+	/*footer*/
+	input[type="email"] {
+		width: 300px;
+		margin-left: 0;
+		float: left;
+	}
+	input[type="submit"] {
+		float: left;
+	}
+	.stay p:first-child, .stay p:last-of-type {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 767px) {
     /* For mobile, tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -586,12 +776,10 @@ input[type="submit"] {
    [class*="col-"] {
 		float: none;
 	}
-	.circle {
-		margin-left: 5%;
-	}
+	
+	/*jumbo*/
 	.jumbo {
-		height: 750px;
-		padding: 2%;
+		border-top: 1px solid #FFF;
 	}
 	.jumbo > p {
 		display: none;
@@ -599,181 +787,211 @@ input[type="submit"] {
 	.jumbo > p > span {
 		display: none;
 	}
-	.jumbo_ h1 {
-		text-align: left;
-		margin-top: 150px;
-		padding-left: 5%;
-		
-	}
-	.jumbo_ p {
-		padding-left: 5%;
-	}
-	
+
 	/*start something new*/
-	
-	.new_1 h1 {
-		margin-top: 40px;
-		padding: 2% 3%;
-	} 
-	.new_1 p, .new_2 p {
-		padding: 2% 3%;
-		text-align: justify;
-	}
-	.new_2 {
-		position: static;
-	}
 	.new_2 img {
 		display: none;
 	}
+	.new_1, .new_2 {
+		padding-right: 2vw;
+	}
 	.new_2_text {
-		margin-top: 0;
+		margin-top: 2vh;
 	}
-	/*gallery*/
+	.new_2 {
+		padding-left: 20vw;	
+	}
 	
-	.gallery_ {
-		padding: 2%;
+	/*gallery*/
+	.gallery_ h2 {
+		padding-top: 25px;
 	}
+
 	.gallery_ [class*="col-"] {
-		height: 35vh;
+		height: 45vh;
+		width: 90%;
 	}
 	.gallery_ a {
-		left: 7px;
+		top: 35vh;
 	}
-	
-	/*details*/
-	.details>p:first-child {
-		display: none;	
-	}
-
-	/*More Power*/
-	.mP {
-		height: 500px;	
-	}
-	.mP h1 {
-		font-size: 40px;
-		padding-left: 5vw;
-		top: 50vh;
-	}
-	.mP p {
-		color: #FFF;
-		font-size: 13px;
-		padding-left: 5vw;
-		top: 80vh;
-	}
-	.mP a {
-		font-size: 13px;
-		bottom: 10vh;
-		left: 5vw;	
-	}
-	.mP a:after {
-		font-size: 13px;
-		font-weight: 400;
-		bottom: 0.1vh;
-		left: 110%;
-	}
-	
-	/*reasons*/
-	.reasons h2 {
-		line-height: 40px;
-	}
-	.reasons>p:first-child {
-		display: none;
-	}
-
-	/*buy*/
-	.buy p:first-child {
-		display: none;
-	}
-	._buy {
-		padding: 3vh 5vw;
-	}
-	.solo, .team {
-		height: 420px;
-		border-bottom: 2px solid #8297a7;
-	}
-	.btn-small {
-		background: #bd8cbf;	
-	}
-	.solo:hover, .team:hover {
-		background: none;
-		box-shadow: none;
-	}
-	.solo:hover .btn-small {
-		background: #bd8cbf;	
-	}
-	.team:hover .btn-small {
-		background: #bd8cbf;	
-	}
-
-	/*footer*/
-	._footer p {
-		border-bottom: 1px solid #FFF;
-	}
-	.stay p {
-		padding-left: 0;	
-		border-bottom: 1px solid #FFF;
-	}
-	input {
-		float: none;
-	}
-	input[type="email"] {
-		width: 150px;
-		height: 30px;	
-		margin-right: 0;
-		margin-left: 0;
-	}
-	input[type="submit"] {
-		width: 30px;
-		height: 30px;
-	}
-} 
-   
-@media (min-width: 768px) and (max-width: 1600px) {
-    /* For tablets, laptop: */
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
-
-
-    /*jumbo*/
-	.jumbo > p {
-		left: -9vh;
-		top: 80vh;
-	}
-	.jumbo_ h1 {
-		margin-top: 60vh;
-	}
-
-	/*gallery*/
-	.gallery_ [class*="col-"] {
-		height: 35vh;
+	i.fa-heart-o {
+		top: 35.5vh;
 	}
 	
 	/*mP*/
 	.mP h1 {
-		top: 40vh;
+		top: 20vh;
+		font-size: 35px;
 	}
 	.mP p {
-		top: 70vh;
+		top: 50vh;
 	}
 	.mP a {
-		left: 10vw;	
+		top: 85vh;	
 	}
 
 	/*buy*/
 	.solo, .team {
-		height: 50vh;
+		height: 65vh;
+	}
+	.solo i, .team i {
+		top: 55vh;
+	}
+
+	/*footer*/
+	input[type="email"] {
+		width: 200px;
+		margin-left: 0;
+		float: left;
+	}
+	input[type="submit"] {
+		float: left;
+		width: 35px;
+	}
+	.stay p:first-child, .stay p:last-of-type {
+		padding-left: 0;
 	}
 }
+
+@media (max-width: 425px) {
+    /* For mobile */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+   
+   [class*="col-"] {
+		float: none;
+	}
+	
+	/*jumbo*/
+	.jumbo {
+		border-top: 1px solid #FFF;
+	}
+	.circle {
+		margin-left: 8vw;
+	}
+	.jumbo_ h1 {
+		padding-left: 8vw;
+		margin-top: 20vh;
+	}
+	.jumbo_ p {
+		padding-left: 8vw;
+	}
+
+	/*start something new*/
+	.new_1 h1 {
+		padding-left: 8vw;
+	} 
+	.new_1 p {
+		padding-left: 8vw;
+		padding-right: 5vw;
+	}
+	.new_2 img {
+		display: none;
+	}
+	.new_1, .new_2 {
+		padding-right: 5vw;
+	}
+	.new_2_text {
+		margin-top: 2vh;
+	}
+	.new_2 {
+		padding-left: 8vw;	
+	}
+	
+	/*gallery*/
+	.gallery_ {
+		padding-left: 8vw;	
+	}
+	.gallery_ h2 {
+		padding-top: 25px;
+	}
+	.gallery_ [class*="col-"] {
+		height: 55vh;
+		width: 95%;
+	}
+	.gallery_ a {
+		top: 48vh;
+	}
+	i.fa-heart-o {
+		top: 48.5vh;
+	}
+	
+	/*details*/
+    .details>p:first-child {
+		display: none;	
+	}
+	._details {
+		padding-left: 8vw;
+		padding-right: 5vw;
+	}
+	
+	/*mP*/
+	.mP h1 {
+		top: 15vh;
+		font-size: 35px;
+		padding-left: 8vw;
+	}
+	.mP p {
+		top: 50vh;
+		padding-left: 8vw;
+	}
+	.mP a {
+		top: 88vh;	
+		left: 8vw;
+	}
+	
+	/*reasons*/
+ 	.reasons>p:first-child {
+		display: none;
+	}
+	._reasons {
+		padding-left: 8vw;
+		padding-right: 5vw;
+	}
+
+	/*buy*/
+	.buy p:first-child {
+		display: none;	
+	}
+	._buy {
+		padding: 5vh 5vh 8vw 5vw;
+	}
+	.solo, .team {
+		height: 85vh;
+	}
+	.solo i, .team i {
+		top: 75vh;
+	}
+
+	/*footer*/
+	._footer {
+		padding-left: 8vw;
+		padding-right: 5vw;
+		}
+	input[type="email"] {
+		width: 150px;
+		margin-left: 0;
+		float: left;
+	}
+	input[type="submit"] {
+		float: left;
+		width: 30px;
+	}
+	.stay p:first-child, .stay p:last-of-type {
+		padding-left: 0;
+	}
+}
+
 
 
 
